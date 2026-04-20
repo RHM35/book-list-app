@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RHM JS BookList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <div class="header">
+            <span class="icon">📖</span>
+            <h1>RHM <span>Booklist  </span>      App</h1>
+        </div>
+
+        <!-- Form -->
+        <form class="book-form">
+            <div class="form-group">
+                <label>Title</label>
+                <input id="Title" type="text" >
+            </div>
+
+            <div class="form-group">
+                <label>Author</label>
+                <input id="Author" type="text">
+            </div>
+
+            <div class="form-group">
+                <label>Year</label>
+                <input id="Year" type="number" minlength="4" maxlength="4">
+            </div>
+
+            <button type="submit" class="btn">Add Book</button>
+        </form>
+
+        <!-- Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody class="books_list">
+            </tbody>
+        </table>
+
+    </div>
+
+    <SCript src="app.js"></SCript>
+
+</body>
+</html>

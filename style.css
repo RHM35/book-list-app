@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #ffffff;
+}
+
+.container {
+    width: 70%;
+    margin: 30px auto;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 34px;
+    font-weight: normal;
+}
+
+.header span {
+    color: #d88900;
+    margin-left: 5px;
+}
+
+.icon {
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+/* Form */
+.book-form {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}
+
+/* Button */
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #d88900;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    /* border-collapse: collapse; */
+    margin-top: 30px;
+}
+
+thead th {
+    text-align: center;
+    padding: 12px;
+    border-top: 1px solid #ddd;
+    border-bottom: 2px solid #ddd;
+}
+
+tbody td {
+    padding: 12px;
+    text-align: center;
+    background: #e9eeee;
+    border-bottom: 1px solid #ddd;
+}
